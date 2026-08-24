@@ -202,3 +202,22 @@ footer{
   .section{padding:78px 0}
   footer{flex-direction:column}
 }
+.shop-button{
+  display:inline-block;
+  margin-top:14px;
+  padding:14px 24px;
+  background:var(--ink);
+  color:var(--cream);
+  border:1px solid var(--ink);
+  border-radius:999px;
+  font-weight:600;
+  text-decoration:none;
+  letter-spacing:.04em;
+  transition:.2s ease;
+}
+
+.shop-button:hover{
+  background:transparent;
+  color:var(--ink);
+  transform:translateY(-2px);
+}
